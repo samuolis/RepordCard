@@ -74,7 +74,8 @@ public class ReportCard {
     // get and set methods for Geography grade
     public int getGeography() {return mGeography;}
     public void setGeography(int geography) {mGeography = geography;}
-
+    
+    //Overriding ToString method
     @Override
     public String toString() {
         return "Student{ " +
